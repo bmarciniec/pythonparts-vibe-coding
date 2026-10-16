@@ -52,7 +52,7 @@ Claude clients ask for the Std and Usr paths during installation. Other clients 
 
 1. Click the button to install the plugin:
 
-   [![Install in VS Code](https://img.shields.io/badge/VS_Code-Install_PythonParts_2027-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://vscode.dev/redirect?url=vscode%3A%2F%2Fchat-plugin%2Finstall%3Fsource%3DTmVtZXRzY2hla0FsbHBsYW4vcHl0aG9ucGFydHMtdmliZS1jb2Rpbmc=%26plugin%3Dpythonparts-2027)
+   [![Install in VS Code](https://img.shields.io/badge/VS_Code-Install_PythonParts_2027-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://vscode.dev/redirect?url=vscode%3A%2F%2Fchat-plugin%2Finstall%3Fsource%3DYm1hcmNpbmllYy9weXRob25wYXJ0cy12aWJlLWNvZGluZw==%26plugin%3Dpythonparts-2027)
 
 2. In the chat, run `/pythonparts-mcp-setup` and enter your Std and Usr paths.
 3. Open the Command Palette, run **MCP: List Servers**, and restart `pythonparts-local-mcp`.
@@ -64,7 +64,7 @@ Claude clients ask for the Std and Usr paths during installation. Other clients 
 
 1. Click the button to install the plugin:
 
-   [![Install in Claude Code](https://img.shields.io/badge/Claude_Code-Install_PythonParts_2027-D97757?style=flat-square&logo=claude&logoColor=white)](https://vscode.dev/redirect?url=vscode%3A%2F%2Fanthropic.claude-code%2Finstall-plugin%3Fplugin%3Dpythonparts-2027%26marketplace%3DNemetschekAllplan%2Fpythonparts-vibe-coding)
+   [![Install in Claude Code](https://img.shields.io/badge/Claude_Code-Install_PythonParts_2027-D97757?style=flat-square&logo=claude&logoColor=white)](https://vscode.dev/redirect?url=vscode%3A%2F%2Fanthropic.claude-code%2Finstall-plugin%3Fplugin%3Dpythonparts-2027%26marketplace%3Dbmarciniec%2Fpythonparts-vibe-coding)
 
 2. In the chat, run `/pythonparts-2027:pythonparts-mcp-setup` and follow the instructions to enter your Std and Usr paths.
 
@@ -76,7 +76,7 @@ Claude clients ask for the Std and Usr paths during installation. Other clients 
 1. In your terminal, run:
 
    ```sh
-   claude plugin marketplace add NemetschekAllplan/pythonparts-vibe-coding
+   claude plugin marketplace add bmarciniec/pythonparts-vibe-coding
    claude plugin install pythonparts-2027@allplan-pythonparts
    ```
 
@@ -96,7 +96,7 @@ claude plugin install pythonparts-2027@allplan-pythonparts --config "std_path=C:
 1. Open **Settings > Plugins > Add > Add Marketplace** and enter:
 
    ```text
-   NemetschekAllplan/pythonparts-vibe-coding
+   bmarciniec/pythonparts-vibe-coding
    ```
 
 2. Click **Sync** and wait for the plugin list to appear.
@@ -111,7 +111,7 @@ claude plugin install pythonparts-2027@allplan-pythonparts --config "std_path=C:
 1. In your terminal, run:
 
    ```sh
-   copilot plugin marketplace add NemetschekAllplan/pythonparts-vibe-coding
+   copilot plugin marketplace add bmarciniec/pythonparts-vibe-coding
    copilot plugin install pythonparts-2027@allplan-pythonparts
    ```
 
@@ -125,9 +125,9 @@ claude plugin install pythonparts-2027@allplan-pythonparts --config "std_path=C:
 
 1. Click the button to add the marketplace:
 
-   [![Add marketplace to the GitHub Copilot app](https://img.shields.io/badge/Copilot_app-Add_marketplace-24292F?style=flat-square&logo=github&logoColor=white)](ghapp://plugins/marketplace/add?source=NemetschekAllplan%2Fpythonparts-vibe-coding)
+   [![Add marketplace to the GitHub Copilot app](https://img.shields.io/badge/Copilot_app-Add_marketplace-24292F?style=flat-square&logo=github&logoColor=white)](ghapp://plugins/marketplace/add?source=bmarciniec%2Fpythonparts-vibe-coding)
 
-   Alternatively, go to **Customize > Plugins**, click the marketplace settings icon next to the marketplace dropdown, and add `NemetschekAllplan/pythonparts-vibe-coding`.
+   Alternatively, go to **Customize > Plugins**, click the marketplace settings icon next to the marketplace dropdown, and add `bmarciniec/pythonparts-vibe-coding`.
 
 2. In **Customize > Plugins**, find `pythonparts-2027` and click **Install**.
 3. In a session, run `/pythonparts-2027:pythonparts-mcp-setup` and enter your Std and Usr paths.
@@ -141,7 +141,7 @@ claude plugin install pythonparts-2027@allplan-pythonparts --config "std_path=C:
 1. In your terminal, run:
 
    ```sh
-   codex plugin marketplace add NemetschekAllplan/pythonparts-vibe-coding
+   codex plugin marketplace add bmarciniec/pythonparts-vibe-coding
    codex plugin add pythonparts-2027@allplan-pythonparts
    ```
 
